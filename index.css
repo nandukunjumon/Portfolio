@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+
+
+#id1 {
+    font-family: 'Righteous', cursive;
+    color: azure;
+}
+
+body {
+    background-color: #59a9f0;
+    z-index: 1;
+}
+
+
+#photo iframe{
+    border: 1px solid white;
+}
+
+#welcome {
+    color: aliceblue;
+    background-color: linear-gradient(#5849f5 rgba(255, 255, 255, 0.738));
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 700;
+    z-index: 2;
+}
+
+#about {
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 2px #5849f5;
+    padding-top: 150px;
+}
+
+.p1 {
+    margin-top: 20px;
+    background: url('https://lh3.googleusercontent.com/-U_4tc3G9ZsU/Yo35Q_INH8I/AAAAAAAACPU/xAikaPpxQlEJOacan9qoL4ZZS1h2xKm8wCNcBGAsYHQ/s1600/1653471551987758-0.png');
+    height: 600px;
+    width: 100;
+    background-size: cover;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(219, 224, 224);
+
+}
+
+.nav-link {
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #59a9f0;
+}
+
+#footer {
+    height: 200px;
+    background-color: rgb(19, 3, 139);
+}
+
+.imgicon {
+    width: 60px;
+    transition: 0.5s;
+}
+
+#orange {
+    height: 600px;
+}
+
+#ach {
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.imgicon:hover {
+    transform: translateY(-20px);
+
+}
+.html{
+    scroll-behavior: smooth;
+}
+#education{
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+.col-3{
+    margin: 5px;
+
+}
+.gradu{
+    font-family: 'Volkhov', serif;
+}
+.school{
+    font-family: 'Viga', sans-serif;
+
+
+}
+.mai{
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    
+}
+.nandu{
+    font-family: 'Tangerine', cursive;
+}
+.text{
+    color: rgb(251, 248, 248);
+    opacity: 0.2;
+}
+span{
+    font-weight: 900;
+}
+.col-6{
+    border: solid white 1px;
+}
